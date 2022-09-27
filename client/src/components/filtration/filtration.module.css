@@ -1,0 +1,17 @@
+.filtration_form {
+    width: 900px;
+    height: 55px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.select_form {
+    margin: 10px;
+    width: 300px;
+}
+
+.input_form {
+    width: 300px;
+    margin: 10px;
+}

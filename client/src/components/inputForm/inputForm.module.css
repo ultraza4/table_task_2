@@ -1,0 +1,17 @@
+.form_container {
+   width: 900px;
+   min-width: 900px;
+   height: auto;
+   margin: 10px auto;
+}
+
+.form {
+   display: flex;
+   justify-content: space-between;
+}
+
+.form_button {
+   width: 200px;
+   margin-top: 17px;
+   height: 30px;
+}
