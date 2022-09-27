@@ -4,12 +4,14 @@
 
 Чтобы запустить приложение:
 
-1) Создайте базу данных с именем workstask в Postgres
+1) Создайте базу данных с именем workstask в pgAdmin 4
 
-2) Открываем терминал SQl Shell для примера, командой "\i F:/Users/Azamat/Desktop/table_task/server/distanceTable.sql"(путь должен быть свой) инсертим готовую таблицу
+2) ПКМ нажимаем по БД worktask, выбираем CREATE Script, копируем весь код из файла distanceTable.sql и вставляем, нажмаем запуск.
+При успешном выполнений должно выйти сообщение "INSERT 0 1"
 
 3) Заходим в папку server, и командой "node index.js" запускаем сервер
 
 4) Заходим в папку client, запускаем приложение "npm start"
 
-P.s. в файле db.js должны быть выставлены свои username и password
+P.s. ВАЖНО!!! в файле db.js должны быть выставлены свои username и password от PostgreSQL
+P.p.s естественно в каждой папке устанавливаем модули командой "npm install"

@@ -1,6 +1,6 @@
 const Pool = require("pg").Pool;
 
-// коннектимся к базе данных PostgresSQL с именем Пользователя и именем БД (в моем случае postgres и "worktask")  
+// коннектимся к базе данных PostgresSQL с именем Пользователя, паролем и именем БД (в моем случае postgres и "worktask")  
 const pool = new Pool({
     user: "postgres",
     password: "admin",
